@@ -36,6 +36,8 @@
 
 .client-name {
   margin-bottom: 1rem;
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
 }
 
 .client-job {
