@@ -25,13 +25,13 @@ function Footer() {
           <img className="footer-logo" src={Logo} alt="Sunnyside Logo" />
           <div className="links">
             <a className="footer-links" href="#about">
-              About
+              <h4>About</h4>
             </a>
             <a className="footer-links" href="#services">
-              Services
+              <h4>Services</h4>
             </a>
             <a className="footer-links" href="#projects">
-              Projects
+              <h4>Projects</h4>
             </a>
           </div>
           <div className="socials">
