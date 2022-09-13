@@ -9,7 +9,7 @@
   margin: 0 auto;
   color: rgb(151, 151, 151);
   letter-spacing: 5px;
-  font-size: larger;
+  font-size: 2rem;
 }
 
 .testimonial-section {
@@ -48,7 +48,7 @@
 
 @media (max-width: 912px) {
   .testimonials__heading {
-    font-size: 3.5vw;
+    font-size: 7vw;
     padding: 1rem;
     line-height: 1.7;
   }
