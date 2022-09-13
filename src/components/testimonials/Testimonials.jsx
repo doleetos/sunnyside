@@ -6,7 +6,7 @@ import Thomas from "../../images/image-thomas.jpg";
 
 function Testimonials() {
   return (
-    <section id="testimonial" title="testimonials">
+    <section id="testimonial" role="testimonials">
       <div className="testimonials-wrapper">
         <div className="testimonials">
           <div className="testimonials__heading">
