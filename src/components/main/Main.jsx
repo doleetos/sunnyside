@@ -6,19 +6,19 @@ import ArrowDown from "../../images/icon-arrow-down.svg";
 import { AiOutlineMenu } from "react-icons/ai";
 
 function Main() {
-  const [nav, setNav] = useState(false);
+  const [navbar, setNav] = useState(false);
 
   return (
-    <main>
+    <header id="#">
       <div className="main-wrapper">
         <div className="navbar">
           <img className="logo" src={Logo} alt="Sunnyside Logo" />
 
-          <div className="mobile-btn">
+          <nav className="mobile-btn">
             <button
               className="mobile-nav-btn"
               onClick={() => {
-                setNav(!nav);
+                setNav(!navbar);
               }}
             >
               <IconContext.Provider
@@ -29,10 +29,10 @@ function Main() {
                 </div>
               </IconContext.Provider>
             </button>
-          </div>
+          </nav>
 
-          <div className="mobile-nav-icon">
-            {nav && (
+          <nav className="mobile-nav-icon">
+            {navbar && (
               <>
                 <div className="mobile-nav-bubble bubble-point">
                   <ul className="mobile-nav-ul">
@@ -64,7 +64,7 @@ function Main() {
                 </div>
               </>
             )}
-          </div>
+          </nav>
 
           <ul className="navbar-ul">
             <li className="navbar-li">
@@ -93,7 +93,7 @@ function Main() {
           <img className="arrow-icon" src={ArrowDown} alt="Arrow down icon" />
         </header>
       </div>
-    </main>
+    </header>
   );
 }
 
