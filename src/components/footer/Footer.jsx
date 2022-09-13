@@ -21,7 +21,7 @@ function Footer() {
           <img src={Sugarcubes} alt="Wall of sugar cubes" />
         </div>
 
-        <section role="contentinfo" className="footer-end">
+        <div className="footer-end">
           <img className="footer-logo" src={Logo} alt="Sunnyside Logo" />
           <div className="links">
             <a
@@ -80,7 +80,7 @@ function Footer() {
               <BsPinterest />
             </a>
           </div>
-        </section>
+        </div>
       </div>
     </footer>
   );
