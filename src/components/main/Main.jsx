@@ -9,7 +9,7 @@ function Main() {
   const [nav, setNav] = useState(false);
 
   return (
-    <main id="#">
+    <main>
       <div className="main-wrapper">
         <div className="navbar">
           <img className="logo" src={Logo} alt="Sunnyside Logo" />
