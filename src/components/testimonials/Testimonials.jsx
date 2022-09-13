@@ -9,9 +9,8 @@ function Testimonials() {
     <section id="testimonial" title="article">
       <div className="testimonials-wrapper">
         <div className="testimonials">
-          <div className="testimonials__heading">
-            <h1>CLIENT TESTIMONIALS</h1>
-          </div>
+          <h1 className="testimonials__heading">CLIENT TESTIMONIALS</h1>
+
           <div className="testimonial-section">
             <div className="testimonial-card">
               <img
