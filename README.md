@@ -49,9 +49,9 @@ Users should be able to:
 I decided to use ReactJS for this project since I just finished learning the basics of it.
 This project took a hot minute to finish, but I am very satisfied with the result!
 Also, it helped me settle and ground what I've been learning:
--JSX
--Components
--State hooks (Holy moly this one took QUITE SOME TIME to get the hang of it and really understand what's going on... :smiling_face_with_tear:)
+- JSX
+- Components
+- State hooks (Holy moly this one took QUITE SOME TIME to get the hang of it and really understand what's going on... :smiling_face_with_tear:)
 
 ### Continued development
 
