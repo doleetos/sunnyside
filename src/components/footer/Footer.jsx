@@ -12,7 +12,7 @@ import { BsPinterest } from "react-icons/bs";
 
 function Footer() {
   return (
-    <section id="footer">
+    <footer id="footer">
       <div className="footer-section">
         <div className="images">
           <img src={Milk} alt="Milk bottles" />
@@ -21,7 +21,7 @@ function Footer() {
           <img src={Sugarcubes} alt="Wall of sugar cubes" />
         </div>
 
-        <footer className="footer-end">
+        <section role="contentinfo" className="footer-end">
           <img className="footer-logo" src={Logo} alt="Sunnyside Logo" />
           <div className="links">
             <a
@@ -80,9 +80,9 @@ function Footer() {
               <BsPinterest />
             </a>
           </div>
-        </footer>
+        </section>
       </div>
-    </section>
+    </footer>
   );
 }
 
