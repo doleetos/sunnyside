@@ -8,9 +8,8 @@ function Testimonials() {
   return (
     <aside id="testimonial">
       <div className="testimonials-wrapper">
+        <h1 className="testimonials__heading">CLIENT TESTIMONIALS</h1>
         <div className="testimonials">
-          <h1 className="testimonials__heading">CLIENT TESTIMONIALS</h1>
-
           <div className="testimonial-section">
             <div className="testimonial-card">
               <img
