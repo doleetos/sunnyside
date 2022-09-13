@@ -12,61 +12,79 @@ import { BsPinterest } from "react-icons/bs";
 
 function Footer() {
   return (
-    <section id="footer">
-      <div className="footer-section">
-        <div className="images">
-          <img src={Milk} alt="Milk bottles" />
-          <img src={OrangePlate} alt="Orange on a plate" />
-          <img src={Cone} alt="Ice cream cone" />
-          <img src={Sugarcubes} alt="Wall of sugar cubes" />
-        </div>
+    <footer>
+      <section id="footer">
+        <div className="footer-section">
+          <div className="images">
+            <img src={Milk} alt="Milk bottles" />
+            <img src={OrangePlate} alt="Orange on a plate" />
+            <img src={Cone} alt="Ice cream cone" />
+            <img src={Sugarcubes} alt="Wall of sugar cubes" />
+          </div>
 
-        <div className="footer-end">
-          <img className="footer-logo" src={Logo} alt="Sunnyside Logo" />
-          <div className="links">
-            <a className="footer-links" href="#about">
-              <h4>About</h4>
-            </a>
-            <a className="footer-links" href="#services">
-              <h4>Services</h4>
-            </a>
-            <a className="footer-links" href="#projects">
-              <h4>Projects</h4>
-            </a>
-          </div>
-          <div className="socials">
-            <a
-              className="footer-links"
-              href="https://www.facebook.com"
-              target="_blank"
-            >
-              <AiFillFacebook />
-            </a>
-            <a
-              className="footer-links"
-              href="https://www.instagram.com"
-              target="_blank"
-            >
-              <AiOutlineInstagram />
-            </a>
-            <a
-              className="footer-links"
-              href="https://www.twitter.com"
-              target="_blank"
-            >
-              <AiOutlineTwitter />
-            </a>
-            <a
-              className="footer-links"
-              href="https://www.pinterest.com"
-              target="_blank"
-            >
-              <BsPinterest />
-            </a>
+          <div className="footer-end">
+            <img className="footer-logo" src={Logo} alt="Sunnyside Logo" />
+            <div className="links">
+              <a
+                className="footer-links"
+                href="#about"
+                aria-label="Link to the about page"
+              >
+                <h4>About</h4>
+              </a>
+              <a
+                className="footer-links"
+                href="#services"
+                aria-label="Link to the services page"
+              >
+                <h4>Services</h4>
+              </a>
+              <a
+                className="footer-links"
+                href="#projects"
+                aria-label="Link to the projects page"
+              >
+                <h4>Projects</h4>
+              </a>
+            </div>
+            <div className="socials">
+              <a
+                className="footer-links"
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Link to the Facebook"
+              >
+                <AiFillFacebook />
+              </a>
+              <a
+                className="footer-links"
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Link to the Instagram"
+              >
+                <AiOutlineInstagram />
+              </a>
+              <a
+                className="footer-links"
+                href="https://www.twitter.com"
+                target="_blank"
+                aria-label="Link to the Twitter"
+              >
+                <AiOutlineTwitter />
+              </a>
+              <a
+                className="footer-links"
+                href="https://www.pinterest.com"
+                target="_blank"
+                aria-label="Link to the Pinterest"
+              >
+                <BsPinterest />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </footer>
   );
 }
 
