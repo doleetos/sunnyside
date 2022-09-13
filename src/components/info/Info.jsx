@@ -3,7 +3,7 @@ import "./info.css";
 
 function Info() {
   return (
-    <main id="info">
+    <section id="info">
       <div className="info-wrapper">
         <div className="grid-wrapper">
           <div className="info-div1">
@@ -43,7 +43,7 @@ function Info() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 
