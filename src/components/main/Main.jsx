@@ -88,10 +88,10 @@ function Main() {
           </ul>
         </div>
 
-        <header className="main-header">
+        <div className="main-header">
           <h1>WE ARE CREATIVES</h1>
           <img className="arrow-icon" src={ArrowDown} alt="Arrow down icon" />
-        </header>
+        </div>
       </div>
     </header>
   );
