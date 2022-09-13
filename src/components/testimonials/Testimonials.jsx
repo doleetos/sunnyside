@@ -6,7 +6,7 @@ import Thomas from "../../images/image-thomas.jpg";
 
 function Testimonials() {
   return (
-    <section id="testimonial" role="article">
+    <section id="testimonial" title="article">
       <div className="testimonials-wrapper">
         <div className="testimonials">
           <div className="testimonials__heading">
@@ -23,7 +23,7 @@ function Testimonials() {
                 We put our trust in Sunnyside and they delivered, making sure
                 our needs were met and deadlines were always hit.
               </p>
-              <h1 className="client-name">Emily R.</h1>
+              <p className="client-name">Emily R.</p>
               <p className="client-job">Marketing Director</p>
             </div>
             <div className="testimonial-card">
@@ -36,7 +36,7 @@ function Testimonials() {
                 Sunnyside’s enthusiasm coupled with their keen interest in our
                 brand’s success made it a satisfying and enjoyable experience.
               </p>
-              <h1 className="client-name">Thomas S.</h1>
+              <p className="client-name">Thomas S.</p>
               <p className="client-job">Chief Operating Officer</p>
             </div>
             <div className="testimonial-card">
@@ -49,7 +49,7 @@ function Testimonials() {
                 Incredible end result! Our sales increased over 400% when we
                 worked with Sunnyside. Highly recommended!
               </p>
-              <h1 className="client-name">Jennie F.</h1>
+              <p className="client-name">Jennie F.</p>
               <p className="client-job">Business Owner</p>
             </div>
           </div>
