@@ -24,9 +24,7 @@ function Main() {
               <IconContext.Provider
                 value={{ color: "rgba(255, 255, 255, 0.8)" }}
               >
-                <div>
-                  <AiOutlineMenu />
-                </div>
+                <AiOutlineMenu />
               </IconContext.Provider>
             </button>
           </nav>
