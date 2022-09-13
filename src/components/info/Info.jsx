@@ -3,7 +3,7 @@ import "./info.css";
 
 function Info() {
   return (
-    <section id="info" role="information">
+    <section id="info" role="contentinfo">
       <div className="info-wrapper">
         <div className="grid-wrapper">
           <div className="info-div1">
