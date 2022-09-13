@@ -1,62 +1,89 @@
 import React from "react";
-import "./testimonials.css";
-import Emily from "../../images/image-emily.jpg";
-import Jennie from "../../images/image-jennie.jpg";
-import Thomas from "../../images/image-thomas.jpg";
+import "./footer.css";
+import Milk from "../../images/desktop/image-gallery-milkbottles.jpg";
+import OrangePlate from "../../images/desktop/image-gallery-orange.jpg";
+import Cone from "../../images/desktop/image-gallery-cone.jpg";
+import Sugarcubes from "../../images/desktop/image-gallery-sugarcubes.jpg";
+import Logo from "../../images/logo.svg";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { BsPinterest } from "react-icons/bs";
 
-function Testimonials() {
+function Footer() {
   return (
-    <main id="testimonials">
-      <div className="testimonials-wrapper">
-        <div className="testimonials">
-          <div className="testimonials__heading">
-            <h1>CLIENT TESTIMONIALS</h1>
+    <footer id="footer">
+      <div className="footer-section">
+        <div className="images">
+          <img src={Milk} alt="Milk bottles" />
+          <img src={OrangePlate} alt="Orange on a plate" />
+          <img src={Cone} alt="Ice cream cone" />
+          <img src={Sugarcubes} alt="Wall of sugar cubes" />
+        </div>
+
+        <div className="footer-end">
+          <img className="footer-logo" src={Logo} alt="Sunnyside Logo" />
+          <div className="links">
+            <a
+              className="footer-links"
+              href="#about"
+              aria-label="Link to the about page"
+            >
+              <h4>About</h4>
+            </a>
+            <a
+              className="footer-links"
+              href="#services"
+              aria-label="Link to the services page"
+            >
+              <h4>Services</h4>
+            </a>
+            <a
+              className="footer-links"
+              href="#projects"
+              aria-label="Link to the projects page"
+            >
+              <h4>Projects</h4>
+            </a>
           </div>
-          <div className="testimonial-section">
-            <div className="testimonial-card">
-              <img
-                className="client-img"
-                src={Emily}
-                alt="Profile picture of Emily R."
-              />
-              <p className="client-quote">
-                We put our trust in Sunnyside and they delivered, making sure
-                our needs were met and deadlines were always hit.
-              </p>
-              <h1 className="client-name">Emily R.</h1>
-              <p className="client-job">Marketing Director</p>
-            </div>
-            <div className="testimonial-card">
-              <img
-                className="client-img"
-                src={Thomas}
-                alt="Profile picture of Thomas S."
-              />
-              <p className="client-quote">
-                Sunnyside’s enthusiasm coupled with their keen interest in our
-                brand’s success made it a satisfying and enjoyable experience.
-              </p>
-              <h1 className="client-name">Thomas S.</h1>
-              <p className="client-job">Chief Operating Officer</p>
-            </div>
-            <div className="testimonial-card">
-              <img
-                className="client-img"
-                src={Jennie}
-                alt="Profile picture of Jennie F."
-              />
-              <p className="client-quote">
-                Incredible end result! Our sales increased over 400% when we
-                worked with Sunnyside. Highly recommended!
-              </p>
-              <h1 className="client-name">Jennie F.</h1>
-              <p className="client-job">Business Owner</p>
-            </div>
+          <div className="socials">
+            <a
+              className="footer-links"
+              href="https://www.facebook.com"
+              target="_blank"
+              aria-label="Link to the Facebook"
+            >
+              <AiFillFacebook />
+            </a>
+            <a
+              className="footer-links"
+              href="https://www.instagram.com"
+              target="_blank"
+              aria-label="Link to the Instagram"
+            >
+              <AiOutlineInstagram />
+            </a>
+            <a
+              className="footer-links"
+              href="https://www.twitter.com"
+              target="_blank"
+              aria-label="Link to the Twitter"
+            >
+              <AiOutlineTwitter />
+            </a>
+            <a
+              className="footer-links"
+              href="https://www.pinterest.com"
+              target="_blank"
+              aria-label="Link to the Pinterest"
+            >
+              <BsPinterest />
+            </a>
           </div>
         </div>
       </div>
-    </main>
+    </footer>
   );
 }
 
-export default Testimonials;
+export default Footer;
