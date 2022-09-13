@@ -6,7 +6,7 @@ import Thomas from "../../images/image-thomas.jpg";
 
 function Testimonials() {
   return (
-    <article id="testimonial">
+    <aside id="testimonial">
       <div className="testimonials-wrapper">
         <div className="testimonials">
           <h1 className="testimonials__heading">CLIENT TESTIMONIALS</h1>
@@ -54,7 +54,7 @@ function Testimonials() {
           </div>
         </div>
       </div>
-    </article>
+    </aside>
   );
 }
 
