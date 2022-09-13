@@ -9,7 +9,7 @@ function Main() {
   const [nav, setNav] = useState(false);
 
   return (
-    <section id="#">
+    <main id="#">
       <div className="main-wrapper">
         <div className="navbar">
           <img className="logo" src={Logo} alt="Sunnyside Logo" />
@@ -37,13 +37,25 @@ function Main() {
                 <div className="mobile-nav-bubble bubble-point">
                   <ul className="mobile-nav-ul">
                     <li className="mobile-nav-li">
-                      <a href="#about">About</a>
+                      <a href="#about" aria-label="Link to the about page">
+                        About
+                      </a>
                     </li>
                     <li className="mobile-nav-li">
-                      <a href="#services">Services</a>
+                      <a
+                        href="#services"
+                        aria-label="Link to the services page"
+                      >
+                        Services
+                      </a>
                     </li>
                     <li className="mobile-nav-li">
-                      <a href="#projects">Projects</a>
+                      <a
+                        href="#projects"
+                        aria-label="Link to the projects page"
+                      >
+                        Projects
+                      </a>
                     </li>
                     <li className="mobile-nav-li">
                       <button className="mobile-contact-btn">CONTACT</button>
@@ -56,13 +68,19 @@ function Main() {
 
           <ul className="navbar-ul">
             <li className="navbar-li">
-              <a href="#about">About</a>
+              <a href="#about" aria-label="Link to the about page">
+                About
+              </a>
             </li>
             <li className="navbar-li">
-              <a href="#services">Services</a>
+              <a href="#services" aria-label="Link to the services page">
+                Services
+              </a>
             </li>
             <li className="navbar-li">
-              <a href="#projects">Projects</a>
+              <a href="#projects" aria-label="Link to the projects page">
+                Projects
+              </a>
             </li>
             <li className="navbar-li">
               <button className="contact-btn">CONTACT</button>
@@ -70,12 +88,12 @@ function Main() {
           </ul>
         </div>
 
-        <div className="main-header">
+        <header className="main-header">
           <h1>WE ARE CREATIVES</h1>
           <img className="arrow-icon" src={ArrowDown} alt="Arrow down icon" />
-        </div>
+        </header>
       </div>
-    </section>
+    </main>
   );
 }
 
