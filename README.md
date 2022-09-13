@@ -51,7 +51,7 @@ This project took a hot minute to finish, but I am very satisfied with the resul
 Also, it helped me settle and ground what I've been learning:
 - JSX
 - Components
-- State hooks (Holy moly this one took QUITE SOME TIME to get the hang of it and really understand what's going on... :smiling_face_with_tear:)
+- State hooks (Holy moly this one took QUITE SOME TIME to get the hang of it and really understand what's going on... 😭)
 
 ### Continued development
 
