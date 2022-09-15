@@ -8,7 +8,7 @@ function Testimonials() {
   return (
     <section id="testimonial">
       <div className="testimonials-wrapper">
-        <h1 className="testimonials__heading">CLIENT TESTIMONIALS</h1>
+        <h2 className="testimonials__heading">CLIENT TESTIMONIALS</h2>
         <div className="testimonials">
           <div className="testimonial-section">
             <div className="testimonial-card">
